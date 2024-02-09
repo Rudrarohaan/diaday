@@ -91,25 +91,5 @@
       </div>
       <button onclick="openUp()">Click Here</button>
     </div>
-<div class="popup">
-        <div class="popup-content">
-            <h1>Disclaimer </h1>
-            <p>Use Laptop or Computer instead of Mobile or Tablet for better experience.</p>
-        </div>
-    </div>
-
-    <script>
-        const popup = document.querySelector('.popup');
-        const x = document.querySelector('.popup-content h1')
-
-        window.addEventListener('load', () => {
-            popup.classList.add('showPopup');
-            popup.childNodes[1].classList.add('showPopup');
-        })
-        x.addEventListener('click', () => {
-            popup.classList.remove('showPopup');
-            popup.childNodes[1].classList.remove('showPopup');
-        })
-    </script>
   </body>
 </html>
